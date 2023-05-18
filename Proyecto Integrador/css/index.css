@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Fiorello;
+  src: url("fonts/CENTURY.ttf");
+}
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #0d0d0d;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 2.2%;
+  font-family: futura lt paneuropean;
+}
+a:hover { 
+  color: rgb(173, 15, 15);
+}
+#uniquebutton{
+  color: rgb(173, 15, 15);
+  font-size: 100px;
+  font-family: fiorello cg condensed;
+  padding-top: 0px;
+  }
+.header {
+  width: 100%;
+  height:auto;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#logo { 
+  height: 25%;
+  width: 25%;
+}
+/* Header/logo Title */
+
+#banner {
+  height: auto;
+  width: 100%;
+}
+h3{
+  font-size: 40px;
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.main h2 { 
+  font-size: 35px;
+  color: rgb(173, 15, 15);
+  font-family: futura lt paneuropean;
+}
+.main p{
+  color: white;
+}
+#top10{
+  color: white;
+  font-family: century;
+  font-size: 20px;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.notti {
+  flex: 30%;
+  padding-left: 5px;
+  padding-right: 10%;
+}
+.notti h2{
+  font-size: 20px;
+  color: rgb(173, 15, 15);
+  font-family: futura lt paneuropean;
+  text-align: justify;
+}
+.notti p{
+  color: white;
+  text-align: justify;
+  font-size: 14px;
+}
+.side_pic{
+  width: 100%;
+  height: auto;
+}
+#vermas:hover{
+  color: rgb(173, 15, 15);
+}
+/* Main column */
+.main {
+  flex: 70%;
+  padding-left: 10%;
+  background-color: #0d0d0d;
+  padding-right: 2%;
+  }
+p{
+  font-family: century;
+  font-size: 18px;
+  text-align: justify;
+}
+.main strong{
+  color: rgb(173, 15, 15);
+}
+
+/* Fake image, just for this example */
+
+/* Footer */
+.footer {
+  border-top: 2px solid #ffffff1a;
+  text-align: center;
+  width: 100%;
+}
+#redes{
+  display: flex;
+  flex: 70%;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+#redes ul li{
+  display: inline;
+}
